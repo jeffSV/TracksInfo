@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DBTrack" representedClassName="DBTrack" syncable="YES">
+        <attribute name="artistName" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="artUrl60x60" optional="YES" attributeType="String" minValueString="8" syncable="YES"/>
+        <attribute name="artUrl512x512" optional="YES" attributeType="String" minValueString="8" syncable="YES"/>
+        <attribute name="displayColor" optional="YES" attributeType="String" minValueString="6" maxValueString="8" syncable="YES"/>
+        <attribute name="price" attributeType="Float" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="trkDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trkID" attributeType="Integer 64" minValueString="1" defaultValueString="1" syncable="YES"/>
+        <attribute name="trkName" optional="YES" attributeType="String" minValueString="1" syncable="YES"/>
+        <attribute name="trkVersion" attributeType="String" minValueString="1" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DBTrack" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

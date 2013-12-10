@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apps</key>
+	<array>
+		<dict>
+			<key>trackId</key>
+			<string>358801284</string>
+			<key>trackName</key>
+			<string>Flipboard: Your Social News Magazine</string>
+			<key>artistName</key>
+			<string>Flipboard Inc.</string>
+			<key>artworkUrl60</key>
+			<string>http://a836.phobos.apple.com/us/r30/Purple4/v4/6d/87/9c/6d879c29-89ba-e609-3af3-a341a10b03a8/AppIcon57x57.png</string>
+			<key>artworkUrl512</key>
+			<string>http://a1153.phobos.apple.com/us/r30/Purple/v4/93/b6/72/93b67265-c2f6-85e5-cec3-2abfab18d1ea/mzl.yafwzycy.png</string>
+			<key>description</key>
+			<string>Flipboard is your personal magazine. It is the most popular way to catch up on the news you care about, discover amazing things from around the world, or stay connected to the people closest to you. Now with Flipboard 2.0, you can save and collect the things you love into your own magazines like “Trips I want to take” or “Dream Homes.” When you first launch Flipboard simply pick a few topics to start reading everything from world news to sports, travel and more. You can also add popular publications, such as The New York Times or Vanity Fair, or add Etsy to shop right from Flipboard. You can find thousands of websites, RSS feeds and interesting sources like Politico and Brain Pickings, or explore magazines being created on Flipboard in “By Our Readers” -- just tap the red ribbon and use the Content Guide to get started. Flipboard also lets you enjoy all your social networks. Add Facebook, Twitter, Instagram, Tumblr and more to see updates from your social world, all in a beautiful magazine style experience. Now the news your friends share is a breeze to flip through -- with headlines and excerpts that give you an immediate glimpse into the world around you. Anything you like, comment on or favorite goes right back into your social networks, so you can easily interact and add to the conversation. Just tap any of your tiles to start flipping through the pages of your Flipboard. And use the + button on any item to start saving things into your own magazines. KEEP UP ON FLIPBOARD: Visit our website http://www.flipboard.com and follow us via @flipboard on Twitter and on Facebook http://www.facebook.com/flipboard for tips and tricks and other helpful information. To learn more about how to use Flipboard, visit our Support Page: http://flipboard.com/support If you are having technical issues or have any questions, we&apos;re here to help. Please send us an email to: support@flipboard.com</string>
+			<key>price</key>
+			<string>0.00</string>
+			<key>version</key>
+			<string>2.1.1</string>
+		</dict>
+		<dict>
+			<key>trackId</key>
+			<string>575119311</string>
+			<key>trackName</key>
+			<string>FINAL FANTASY IV</string>
+			<key>artistName</key>
+			<string>SQUARE ENIX INC</string>
+			<key>artworkUrl60</key>
+			<string>http://a1518.phobos.apple.com/us/r30/Purple6/v4/db/bb/13/dbbb13d4-a389-90e3-e3b5-2ccea6d590de/Icon.png</string>
+			<key>artworkUrl512</key>
+			<string>http://a1363.phobos.apple.com/us/r30/Purple/v4/6e/05/99/6e059904-f697-78b1-3fef-2a0a300bae22/mzl.bqhumpzc.png</string>
+			<key>description</key>
+			<string>&quot;FINAL FANTASY IV&quot; has finally come to the iPhone/iPod touch/iPad! The title first debuted in 1991 as the fourth installment in the FINAL FANTASY series. Wildly popular thanks to its unique characters and dramatic storylines, it went on to be ported to many different platforms. FINAL FANTASY IV was the first title to introduce the Active Time Battle (ATB) system, which has become synonymous with the series. It also saw the introduction of the Augment system, which enabled the transfer of abilities from other characters and gave players an edge in battles. This iconic title is packed with other amazing features. - Voice acting for event scenes Key events unfold with spoken dialogue. - Deeply emotional portrayals Characters go through visibly apparent emotional changes. - A brand new mapping feature Players start with a completely blank dungeons map, adding an element of the unknown to the mix! - Jukebox Players can listen to the game&apos;s music anytime they want. Story Stripped of his command after questioning the king, the dark knight Cecil, captain of the Red Wings airship brigade, is dispatched to the distant Valley of Mist together with Kain, his sworn comrade and commander of the Dragoons. And so begins the epic never-before-told tale of the legendary Crystals. ---------------------------------- iOS Version Features - Brand new 3D graphics, including backgrounds, and revamped events. - Game difficulty has been adjusted for improved playability. - Game Center support and plenty of achievements to be earned. - iPhone 5 compatibility.</string>
+			<key>price</key>
+			<string>15.99</string>
+			<key>version</key>
+			<string>2.1.1</string>
+		</dict>
+		<dict>
+			<key>trackId</key>
+			<string>284882215</string>
+			<key>trackName</key>
+			<string>Facebook</string>
+			<key>artistName</key>
+			<string>Facebook, Inc.</string>
+			<key>artworkUrl60</key>
+			<string>http://a1961.phobos.apple.com/us/r30/Purple4/v4/06/6e/4a/066e4aa3-a4c3-9b16-b9b8-3eb6e602dcf5/Icon.png</string>
+			<key>artworkUrl512</key>
+			<string>http://a377.phobos.apple.com/us/r30/Purple6/v4/e3/16/b4/e316b4b9-b451-141d-137d-fe6c5828b6fa/mzl.azhsfvxe.png</string>
+			<key>description</key>
+			<string>Keeping up with friends is faster than ever. • See what friends are up to • Share updates, photos and videos • Get notified when friends like and comment on your posts • Text, chat and have group conversations • Play games and use your favorite apps Read our Data Use Policy, Terms and other important info in the legal section of our App Store description.</string>
+			<key>price</key>
+			<string>0.00</string>
+			<key>version</key>
+			<string>6.7.2</string>
+		</dict>
+		<dict>
+			<key>trackId</key>
+			<string>284235722</string>
+			<key>trackName</key>
+			<string>Movies by Flixster, with Rotten Tomatoes</string>
+			<key>artistName</key>
+			<string>Flixster, Inc.</string>
+			<key>artworkUrl60</key>
+			<string>http://a1662.phobos.apple.com/us/r30/Purple4/v4/29/a5/ee/29a5eeba-c84c-dae9-1c2d-6788508dc715/Icon.png</string>
+			<key>artworkUrl512</key>
+			<string>http://a1328.phobos.apple.com/us/r30/Purple/v4/7f/56/7b/7f567bb6-2055-5278-51df-fd9cdff6d2a6/mzl.txwjkfjc.png</string>
+			<key>description</key>
+			<string>Movies by Flixster. The #1 app for movie reviews, trailers, and showtimes. - The most downloaded movies app of all time - Featured in the App Store Essentials Hall of Fame by Apple - Best showtimes app for iPhone - Lifehacker.com 1. Browse the top box office movies and movies opening soon 2. Look up showtimes at your favorite theater and buy tickets (from participating theaters) 3. Get critic reviews from Rotten Tomatoes 4. Watch high quality trailers 5. Stream and download full-length movies. 6. Create your own &quot;Want to See&quot; list, rate &amp; review movies 7. View and manage your Netflix queue</string>
+			<key>price</key>
+			<string>0.00</string>
+			<key>version</key>
+			<string>6.7</string>
+		</dict>
+		<dict>
+			<key>trackId</key>
+			<string>436018237</string>
+			<key>trackName</key>
+			<string>CityVille Hometown</string>
+			<key>artistName</key>
+			<string>Zynga Inc.</string>
+			<key>artworkUrl60</key>
+			<string>http://a276.phobos.apple.com/us/r30/Purple/v4/10/d3/2e/10d32e3d-0e6b-c51b-807a-12eae165ce29/icon.png</string>
+			<key>artworkUrl512</key>
+			<string>http://a789.phobos.apple.com/us/r30/Purple/v4/48/37/17/48371754-60e1-6305-d555-8e11bb4fe28d/mzl.buutlqhv.png</string>
+			<key>description</key>
+			<string>Create the town of your dreams in CityVille Hometown! (Note to CityVille web players: this game does not connect to your web city, but it’s a new and uniquely mobile game.) Help a cast of delightful characters, follow their stories, and be rewarded with special items. Watch your town come to life with a wide assortment of houses, businesses, and fantastic decorations! Name your businesses and residents to make your town unique. Game Features: ★ Attract new residents by building a variety of homes. ★ Make it your own - Choose who moves in and customize names for your residents and buildings. ★ Find your Facebook friends, visit their towns, and get their help in building your town. ★ Grow your economy by building businesses to earn coins. ★ Plant and harvest crops for your businesses. ★ Help your residents achieve special goals. ★ Beautify your town with decorations to earn bonus payouts on businesses. •• Note: A network connection is required to play. Compatible with iPhone 4S, 4 &amp; 3GS, iPod touch 2nd, 3rd &amp; 4th gen, and iPad 1 &amp; 2. Requires iOS 4 or later. ******************************************************************* Like CityVille Hometown on Facebook! http://www.facebook.com/CityVilleHometown Don’t forget to rate CityVille Hometown if you love your town! ******************************************************************* Use of this application is governed by the Zynga Terms of Service. Collection and use of personal data are subject to Zynga&apos;s Privacy Policy. Both policies are available in the Application License Agreement below as well as at www.zynga.com. Social Networking Service terms may also apply.</string>
+			<key>price</key>
+			<string>0.00</string>
+			<key>version</key>
+			<string>1.035</string>
+		</dict>
+	</array>
+</dict>
+</plist>
