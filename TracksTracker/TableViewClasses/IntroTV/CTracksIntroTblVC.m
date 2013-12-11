@@ -11,6 +11,7 @@
 #import "CDataManager.h"
 #import "CDefaults.h"
 #import "CExtraDataDisplayVC.h"
+#import "CHelperMethods.h"
 #import "CTrackInitialTableViewCell.h"
 #import "CUpdateSyncInfo.h"
 #import "DBTrack.h"
@@ -221,7 +222,23 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{}
+{
+	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+		return;//The iPhone will segue
+
+	UIViewController *detailedVC = [CHelperMethods retreiveSplitViewDispalayController:self.splitViewController];
+
+	if( (detailedVC == nil) || ([detailedVC isKindOfClass:[CExtraDataDisplayVC class]] == FALSE) )
+		return;
+
+	CExtraDataDisplayVC *extrDataVC = (CExtraDataDisplayVC *)detailedVC;
+	
+	if([extrDataVC configureHtmlFromTrack:[self.fetchedResultsController objectAtIndexPath:indexPath]] == FALSE)
+	{
+		NSLog(@"Failed to properly construct the track's HTML from the track at index: %ld Row - %ld Section", indexPath.row, indexPath.section);
+		return;
+	}
+}
 
 // In a story board-based application, you will often want to do a little preparation before navigation
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

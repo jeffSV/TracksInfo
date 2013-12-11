@@ -26,4 +26,28 @@
 	return fTheNumber;
 }//End
 
++(UIViewController *)retreiveSplitViewDispalayController:(UISplitViewController *)svc
+{
+	if( (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) || (svc == nil) )
+		return nil;//The iPhone will not implement a split view controller
+	
+	UIViewController *vc;
+
+	for(NSObject *obj in svc.viewControllers)
+	{
+		//Based on Apple's documentation regarding a UISplitViewController's viewcontrollers array:
+		//"The array in this property must contain exactly two view controllers."
+		//ie: One is a table view controller and the other is a display viewcontroller.
+		if ( (obj != [NSNull null]) && ([obj isKindOfClass:[UINavigationController class]] == FALSE) )
+		{
+			NSLog(@"%@", [obj class]);
+			vc = (UIViewController *)obj;
+			break;
+		}
+	}//End
+
+	return vc;
+}//End
+
+
 @end

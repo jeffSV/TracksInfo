@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7FC3E7141854C5DD00635B44 /* DBTrack+NonDbHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E7131854C5DD00635B44 /* DBTrack+NonDbHelpers.m */; };
 		7FC3E71718550EF700635B44 /* NoAvailableImage40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3E71618550EF700635B44 /* NoAvailableImage40x40.png */; };
-		7FC3E719185510B300635B44 /* bgTestImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3E718185510B300635B44 /* bgTestImg.png */; };
 		7FC3E71B18551C8300635B44 /* NoAvailableImageBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3E71A18551C8300635B44 /* NoAvailableImageBG.png */; };
 		7FC3E720185520C100635B44 /* CExtraDataDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E71F185520C100635B44 /* CExtraDataDisplayVC.m */; };
 		7FC3E72618554D9F00635B44 /* CUpdateSyncInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E72518554D9F00635B44 /* CUpdateSyncInfo.m */; };
@@ -58,7 +57,6 @@
 		7FC3E7121854C5DD00635B44 /* DBTrack+NonDbHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DBTrack+NonDbHelpers.h"; path = "TracksTracker/ManagementClasses/SupportClasses/ManagedObjs/DBTrack+NonDbHelpers.h"; sourceTree = "<group>"; };
 		7FC3E7131854C5DD00635B44 /* DBTrack+NonDbHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DBTrack+NonDbHelpers.m"; path = "TracksTracker/ManagementClasses/SupportClasses/ManagedObjs/DBTrack+NonDbHelpers.m"; sourceTree = "<group>"; };
 		7FC3E71618550EF700635B44 /* NoAvailableImage40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoAvailableImage40x40.png; sourceTree = SOURCE_ROOT; };
-		7FC3E718185510B300635B44 /* bgTestImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgTestImg.png; sourceTree = SOURCE_ROOT; };
 		7FC3E71A18551C8300635B44 /* NoAvailableImageBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoAvailableImageBG.png; sourceTree = SOURCE_ROOT; };
 		7FC3E71E185520C100635B44 /* CExtraDataDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CExtraDataDisplayVC.h; path = TracksTracker/SupportViews/CExtraDataDisplayVC.h; sourceTree = "<group>"; };
 		7FC3E71F185520C100635B44 /* CExtraDataDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CExtraDataDisplayVC.m; path = TracksTracker/SupportViews/CExtraDataDisplayVC.m; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 		7FC3E71518550EE200635B44 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				7FC3E718185510B300635B44 /* bgTestImg.png */,
 				7FC3E71A18551C8300635B44 /* NoAvailableImageBG.png */,
 				7FC3E71618550EF700635B44 /* NoAvailableImage40x40.png */,
 			);
@@ -413,7 +410,6 @@
 				7FFDCEDA1853B51900494B89 /* Images.xcassets in Resources */,
 				7FC3E71B18551C8300635B44 /* NoAvailableImageBG.png in Resources */,
 				7FFDCF061853E51A00494B89 /* trackInitialCell.xib in Resources */,
-				7FC3E719185510B300635B44 /* bgTestImg.png in Resources */,
 				7FFDCED21853B51700494B89 /* Main_iPhone.storyboard in Resources */,
 				7FFDCEC91853B51700494B89 /* InfoPlist.strings in Resources */,
 				7FC3E71718550EF700635B44 /* NoAvailableImage40x40.png in Resources */,

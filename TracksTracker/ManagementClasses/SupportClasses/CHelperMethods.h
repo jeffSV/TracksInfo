@@ -11,5 +11,6 @@
 @interface CHelperMethods : NSObject
 
 +(NSNumber *)numberFromString:(NSString *)strNumber;
++(UIViewController *)retreiveSplitViewDispalayController:(UISplitViewController *)svc;
 
 @end

@@ -13,6 +13,9 @@
 	@property(nonatomic, strong) NSURL *urlBgImg;
 	@property(nonatomic, strong) NSString *strHtml;
 
+	-(void)displayPage;
+	-(void)displayImage;
+	-(void)doIPadDisplaySequence;
 	-(void)constructHtmlForInvalidTrack;
 @end
 
@@ -27,32 +30,44 @@
 {
    [super viewDidLoad];
 
-	if( (self.imgVwBackGround != nil) && (self.urlBgImg != nil) )
-		self.imgVwBackGround.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:self.urlBgImg]];
-	//Otherwise we just leave in the default background image.
+	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+		[self displayImage];//On the iPhone/iPod, since we're seguing, get the track's image started displaying as early as possible.
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+	[super viewDidAppear:animated];
 }
 
 -(void)viewWillAppear:(BOOL)animated
 {
 	[super viewWillAppear:animated];
-	
+
+	[self.webView setBackgroundColor:[UIColor clearColor]];
+	[self.webView setOpaque:NO];
+
+	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+		[self displayPage];
+}
+
+-(void)displayImage
+{
+	if( (self.imgVwBackGround != nil) && (self.urlBgImg != nil) )
+		self.imgVwBackGround.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:self.urlBgImg]];
+
+	//Otherwise we just leave in the default background image.
+}//End
+
+-(void)displayPage
+{
 	if(self.webView != nil)
 	{
-		[self.webView setBackgroundColor:[UIColor clearColor]];
-		[self.webView setOpaque:NO];
-		
 		if(self.strHtml == nil)
 			[self constructHtmlForInvalidTrack];
-
+		
 		[self.webView loadHTMLString:self.strHtml baseURL:nil];
 	}
-}
-
--(void)didReceiveMemoryWarning
-{
-	[super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+}//End
 
 -(BOOL)configureHtmlFromTrack:(DBTrack *)track
 {
@@ -61,7 +76,7 @@
 		[self constructHtmlForInvalidTrack];
 		return FALSE;
 	}
-	
+
 	self.urlBgImg = [NSURL URLWithString:track.artUrl512x512];
 	
 	NSMutableString *strHtmlConstruct = [[NSMutableString alloc]init];
@@ -76,6 +91,8 @@
 	[strHtmlConstruct appendString:@"</body></html>"];//Close web page
 
 	self.strHtml = strHtmlConstruct;
+	
+	[self doIPadDisplaySequence];
 
 	return TRUE;
 }
@@ -96,6 +113,18 @@
 	[strHtmlConstruct appendString:@"</body></html>"];//Close web page
 	
 	self.strHtml = strHtmlConstruct;
+
+	[self doIPadDisplaySequence];
 }
+
+-(void)doIPadDisplaySequence
+{
+	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+	{
+		[self displayImage];
+		[self displayPage];
+	}//End
+
+}//End
 
 @end
